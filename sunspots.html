@@ -1,0 +1,19 @@
+<script src="sunspots.js"></script>
+
+<pre>
+
+<script>
+var input1 = "1 5 5 3 1 2 0 4 1 1 3 2 2 3 2 4 3 0 2 3 3 2 1 0 2 4 3";
+var expected1 = "(3,3 score:26)";
+var output1 = Sunspots(input1)
+document.write(input1 + " : " + output1 + " " + (expected1 === output1));
+
+document.write("<br/>")
+
+var input2 = "3 4 2 3 2 1 4 4 2 0 3 4 1 1 2 3 4 4";
+var expected2 = "(1,2 score:27)(1,1 score:25)(2,2 score:23)";
+var output2 = Sunspots(input2)
+document.write(input2 + " : " + output2 + " " + (expected2 === output2));
+</script>
+
+</pre>
